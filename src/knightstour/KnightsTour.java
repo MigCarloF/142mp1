@@ -5,6 +5,10 @@ import knightstour.ReusableFunc;
 
 public class KnightsTour {
 
+    private int[][] board;
+    int boardLength;
+    int boardWidth;
+
     public KnightsTour(){
 
         init();
@@ -12,21 +16,26 @@ public class KnightsTour {
     }
 
     public void start(){
+        int currx = 0;
+        int curry = 0;
 
+        int spacesLeft = boardLength * boardWidth;
+        spacesLeft--; //for the initial space
+
+
+
+    }
+    public int move(){
+        return 0;
     }
 
     public void init(){
-
-        int boardLength;
-        int boardWidth;
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Length: ");
         boardLength = sc.nextInt();
         System.out.print("Width: ");
         boardWidth = sc.nextInt();
-
-        int[][] board;
 
         board = setupBoard(boardLength, boardWidth);
 

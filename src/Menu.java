@@ -1,4 +1,6 @@
+import coinchange.CoinChange;
 import knightstour.KnightsTour;
+import sorting.Sorting;
 
 import java.util.Scanner;
 
@@ -33,8 +35,10 @@ public class Menu {
             case 2:
                 break;
             case 3:
+                new CoinChange();
                 break;
             case 4:
+                new Sorting();
                 break;
             default:
                 System.out.println("Impossible event at main: switch choice");

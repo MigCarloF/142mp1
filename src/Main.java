@@ -6,6 +6,5 @@ public class Main {
 
         new Menu();
 
-        ReusableFunc.display(new int[0][0]);
     }
 }
