@@ -29,6 +29,9 @@ public class Sorting {
         }
     }
 
+    /**
+     * runtime = O(n^2)
+     */
     private void start(){
         int currMinIndex = 0;
 

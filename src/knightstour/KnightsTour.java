@@ -10,7 +10,6 @@ public class KnightsTour {
     int boardWidth;
 
     public KnightsTour(){
-
         init();
         start();
     }
@@ -21,9 +20,6 @@ public class KnightsTour {
 
         int spacesLeft = boardLength * boardWidth;
         spacesLeft--; //for the initial space
-
-
-
     }
     public int move(){
         return 0;

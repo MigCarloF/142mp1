@@ -1,5 +1,6 @@
 import coinchange.CoinChange;
 import knightstour.KnightsTour;
+import setcover.SetCover;
 import sorting.Sorting;
 
 import java.util.Scanner;
@@ -33,6 +34,7 @@ public class Menu {
                 new KnightsTour();
                 break;
             case 2:
+                new SetCover();
                 break;
             case 3:
                 new CoinChange();
