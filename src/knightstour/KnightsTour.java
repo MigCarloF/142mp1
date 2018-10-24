@@ -10,8 +10,8 @@ public class KnightsTour {
     private int boardWidth;
 
     public KnightsTour(){
-        testInit();
-        //init();
+        //testInit();
+        init();
         start();
     }
 
