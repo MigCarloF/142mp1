@@ -1,4 +1,3 @@
-import knightstour.ReusableFunc;
 
 public class Main {
 
