@@ -41,7 +41,7 @@ public class KnightsTour {
                     System.out.println("Whoops! We cannot continue! End of the line");
                     break;
                 } else {
-                    System.out.println("We did it!");
+                    System.out.println("We did it!!");
                     break;
                 }
             }
